@@ -11,6 +11,7 @@ import com.japa.markethub.screens.auth.RegisterScreen
 import com.japa.markethub.screens.onboarding.OnBoarding1Screen
 import com.japa.markethub.screens.onboarding.OnBoarding2Screen
 import com.japa.markethub.screens.home.Homescreen
+import com.japa.markethub.screens.intent.IntentScreen
 
 @Composable
 fun AppNavHost(
@@ -50,6 +51,10 @@ fun AppNavHost(
 
         composable(ROUT_ONBOARDING3) {
             OnBoarding1Screen(navController)
+        }
+
+        composable(ROUT_INTENT) {
+            IntentScreen(navController)
         }
     }
 
