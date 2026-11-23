@@ -6,6 +6,10 @@ const val ROUT_HOME = "home"
 const val ROUT_ONBOARDING1 = "onboarding1"
 const val ROUT_ONBOARDING2 = "onboarding2"
 const val ROUT_ONBOARDING3 = "onboarding3"
-
 const val ROUT_INTENT = "Intent"
+const val ROUT_SPLASHSCREEN= "SplashScreen"
+const val ROUT_SCAFFOLDSCREEN= "ScaffoldScreen"
+
+
+
 

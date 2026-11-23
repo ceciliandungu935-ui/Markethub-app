@@ -12,6 +12,8 @@ import com.japa.markethub.screens.onboarding.OnBoarding1Screen
 import com.japa.markethub.screens.onboarding.OnBoarding2Screen
 import com.japa.markethub.screens.home.Homescreen
 import com.japa.markethub.screens.intent.IntentScreen
+import com.japa.markethub.screens.scaffold.ScaffoldScreen
+import com.japa.markethub.screens.splash.SplashScreenScreen
 
 @Composable
 fun AppNavHost(
@@ -56,6 +58,22 @@ fun AppNavHost(
         composable(ROUT_INTENT) {
             IntentScreen(navController)
         }
+
+        composable(ROUT_SPLASHSCREEN) {
+            SplashScreenScreen(navController)
+        }
+
+        composable(ROUT_SCAFFOLDSCREEN) {
+            ScaffoldScreen(navController)
+        }
+
+
+
+
+
+
+
+
     }
 
 }
