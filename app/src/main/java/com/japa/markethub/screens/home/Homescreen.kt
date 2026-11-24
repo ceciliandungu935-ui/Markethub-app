@@ -71,7 +71,7 @@ fun Homescreen(navController: NavController) {
 
             colors = topAppBarColors(
                 navigationIconContentColor = Color.White,
-                containerColor = Color.Magenta,
+                containerColor = Color.Black,
                 titleContentColor = Color.White,
                 actionIconContentColor = Color.White
             )

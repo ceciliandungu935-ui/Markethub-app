@@ -4,12 +4,11 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FloatingActionButton
@@ -49,7 +48,7 @@ fun ScaffoldScreen(navController: NavController){
 
         //TopBar
         topBar = {
-            val newyellow = null
+            val black = null
             TopAppBar(
                 title = { Text("Scaffold Screen") },
                 navigationIcon = {
@@ -58,10 +57,10 @@ fun ScaffoldScreen(navController: NavController){
                     }
                 },
                 colors = topAppBarColors(
-                    containerColor = Color.Yellow,
-                    titleContentColor = Color.Black,
-                    navigationIconContentColor = Color.Black,
-                    actionIconContentColor = Color.Black
+                    containerColor = Color.Black,
+                    titleContentColor = Color.White,
+                    navigationIconContentColor = Color.White,
+                    actionIconContentColor = Color.White
                 ),
                 actions = {
                     IconButton(onClick = {}) { Icon(imageVector = Icons.Default.ShoppingCart, contentDescription ="") }
@@ -77,10 +76,10 @@ fun ScaffoldScreen(navController: NavController){
         bottomBar = {
 
             NavigationBar(
-                containerColor = Color.Yellow
+                containerColor = Color.Black
             ){
                 NavigationBarItem(
-                    icon = { Icon(Icons.Default.Person, contentDescription = "Home") },
+                    icon = { Icon(Icons.Default.Home, contentDescription = "Home") },
                     label = { Text("Login") },
                     selected = selectedIndex == 0,
                     onClick = {
@@ -116,11 +115,11 @@ fun ScaffoldScreen(navController: NavController){
 
         //FloatingActionButton
         floatingActionButton = {
-            val newyellow = null
-            if (newyellow != null) {
+            val black = null
+            if (black != null) {
                 FloatingActionButton(
                     onClick = { /* Add action */ },
-                    containerColor = newyellow
+                    containerColor = Color.Black
                 ) {
                     Icon(Icons.Default.Add, contentDescription = "Add")
                 }
@@ -134,7 +133,7 @@ fun ScaffoldScreen(navController: NavController){
                 modifier = Modifier
                     .padding(paddingValues)
                     .fillMaxSize()
-                // .background(newYellow)
+                // .background(black)
             ) {
 
 

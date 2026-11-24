@@ -19,7 +19,7 @@ import com.japa.markethub.screens.splash.SplashScreenScreen
 fun AppNavHost(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
-    startDestination: String = ROUT_ONBOARDING1
+    startDestination: String = ROUT_SPLASHSCREEN
 ) {
 
     NavHost(

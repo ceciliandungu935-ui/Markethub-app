@@ -64,7 +64,7 @@ fun IntentScreen(navController: NavController){
 
             colors = topAppBarColors(
                 navigationIconContentColor = Color.White,
-                containerColor = Color.Magenta,
+                containerColor = Color.Black,
                 titleContentColor = Color.White,
                 actionIconContentColor = Color.White
             )
@@ -78,7 +78,7 @@ fun IntentScreen(navController: NavController){
 
 
             },
-            colors = ButtonDefaults.buttonColors(Color.Magenta),
+            colors = ButtonDefaults.buttonColors(Color.Black),
             shape = RoundedCornerShape(10.dp),
             modifier = Modifier.width(250.dp).align(alignment = Alignment.CenterHorizontally)
 
@@ -90,7 +90,7 @@ fun IntentScreen(navController: NavController){
                 mContext.startActivity(callIntent)
 
             },
-            colors = ButtonDefaults.buttonColors(Color.Magenta),
+            colors = ButtonDefaults.buttonColors(Color.Black),
             shape = RoundedCornerShape(10.dp),
             modifier = Modifier.width(250.dp).align(alignment = Alignment.CenterHorizontally)
 
@@ -104,7 +104,7 @@ fun IntentScreen(navController: NavController){
                 mContext.startActivity(smsIntent)
 
             },
-            colors = ButtonDefaults.buttonColors(Color.Magenta),
+            colors = ButtonDefaults.buttonColors(Color.Black),
             shape = RoundedCornerShape(10.dp),
             modifier = Modifier.width(250.dp).align(alignment = Alignment.CenterHorizontally)
 
@@ -120,7 +120,7 @@ fun IntentScreen(navController: NavController){
                     shareIntent.putExtra(Intent.EXTRA_TEXT, "Hello, this is the email body")
                     mContext.startActivity(shareIntent)
             },
-            colors = ButtonDefaults.buttonColors(Color.Magenta),
+            colors = ButtonDefaults.buttonColors(Color.Black),
             shape = RoundedCornerShape(10.dp),
             modifier = Modifier.width(250.dp).align(alignment = Alignment.CenterHorizontally)
 
@@ -133,7 +133,7 @@ fun IntentScreen(navController: NavController){
                 mContext.startActivity(callIntent)
 
             },
-            colors = ButtonDefaults.buttonColors(Color.Magenta),
+            colors = ButtonDefaults.buttonColors(Color.Black),
             shape = RoundedCornerShape(10.dp),
             modifier = Modifier.width(250.dp).align(alignment = Alignment.CenterHorizontally)
 
@@ -148,7 +148,7 @@ fun IntentScreen(navController: NavController){
                 shareIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/gloryakinyi")
                 mContext.startActivity(Intent.createChooser(shareIntent, "Share"))
             },
-            colors = ButtonDefaults.buttonColors(Color.Magenta),
+            colors = ButtonDefaults.buttonColors(Color.Black),
             shape = RoundedCornerShape(10.dp),
             modifier = Modifier.width(250.dp).align(alignment = Alignment.CenterHorizontally)
 

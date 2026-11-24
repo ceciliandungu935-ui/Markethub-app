@@ -42,7 +42,7 @@ fun OnBoarding2Screen(navController: NavController){
         Text(
             text = "Shop Now. Live Better",
             fontSize = 40.sp,
-            color = Color.Magenta
+            color = Color.Black
 
 
         )
@@ -58,7 +58,7 @@ fun OnBoarding2Screen(navController: NavController){
 
         Button(
             onClick = {},
-            colors = ButtonDefaults.buttonColors(Color.Magenta),
+            colors = ButtonDefaults.buttonColors(Color.Black),
             shape = RoundedCornerShape(10.dp),
 
             ) {Text("Get Started")}

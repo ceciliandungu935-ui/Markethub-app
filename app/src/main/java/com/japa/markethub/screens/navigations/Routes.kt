@@ -1,7 +1,7 @@
 package com.japa.markethub.screens.navigations
 
 const val ROUT_LOGIN = "login"
-const val ROUT_REGISTER = "register"
+const val ROUT_REGISTER = "Register"
 const val ROUT_HOME = "home"
 const val ROUT_ONBOARDING1 = "onboarding1"
 const val ROUT_ONBOARDING2 = "onboarding2"

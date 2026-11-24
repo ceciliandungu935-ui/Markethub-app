@@ -57,7 +57,7 @@ fun OnBoarding1Screen(navController: NavController){
 
         Button(
             onClick = {navController.navigate(ROUT_ONBOARDING2)},
-            colors = ButtonDefaults.buttonColors(Color.Magenta),
+            colors = ButtonDefaults.buttonColors(Color.Black),
             shape = RoundedCornerShape(10.dp),
 
         ) {Text("Get Started")}
