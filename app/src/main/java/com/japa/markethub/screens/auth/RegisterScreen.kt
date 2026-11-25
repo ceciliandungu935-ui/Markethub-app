@@ -149,7 +149,7 @@ fun RegisterScreen(navController: NavController){
             label = { Text(text = "confirmpassword") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
             colors = OutlinedTextFieldDefaults.colors(
-                unfocusedTextColor = Color.Blue,
+                unfocusedTextColor = Color.Black,
                 unfocusedLabelColor = Color.Black,
                 unfocusedLeadingIconColor = Color.Black,
                 focusedBorderColor = Color.Black
